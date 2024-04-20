@@ -39,8 +39,10 @@ const ContactForm = ({ addContact }) => {
       onSubmit={handleSubmit}
     >
       <Form className={css.form}>
-        <div>
-          <label htmlFor={nameFieldId}>Name</label>
+        <div className={css.container}>
+          <label className={css.label} htmlFor={nameFieldId}>
+            Name
+          </label>
           <Field
             type="text"
             id={nameFieldId}
@@ -54,7 +56,9 @@ const ContactForm = ({ addContact }) => {
           />
         </div>
         <div>
-          <label htmlFor={numberFieldId}>Number</label>
+          <label className={css.labelnumber} htmlFor={numberFieldId}>
+            Number
+          </label>
           <Field
             type="text"
             id={numberFieldId}

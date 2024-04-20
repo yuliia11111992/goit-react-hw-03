@@ -1,0 +1,11 @@
+body {
+  background-color: #f9c9ee;
+  color: #be0f81;
+  font-family: "Roboto", sans-serif;
+  font-style: none;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+}

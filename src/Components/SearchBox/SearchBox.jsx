@@ -1,5 +1,5 @@
 import React from "react";
-
+import css from "./SearchBox.module.css";
 const SearchBox = ({ setInputValue, inputValue }) => {
   const handleChange = (event) => {
     setInputValue(event.target.value);
@@ -7,7 +7,12 @@ const SearchBox = ({ setInputValue, inputValue }) => {
   };
   return (
     <div>
-      <input type="text" value={inputValue} onChange={handleChange} />
+      <input
+        className={css.searchname}
+        type="text"
+        value={inputValue}
+        onChange={handleChange}
+      />
     </div>
   );
 };
