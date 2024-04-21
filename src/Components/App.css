@@ -1,11 +1,13 @@
 body {
-  background-color: #f9c9ee;
+  background-image: url("./img/barbie_princess_adventure_deluxe_princess_barbie_doll_-_3.webp");
+  background-size: cover;
+  background-position: 150% right;
   color: #be0f81;
   font-family: "Roboto", sans-serif;
   font-style: none;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   text-align: center;
   gap: 20px;
 }
